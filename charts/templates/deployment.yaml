@@ -20,6 +20,13 @@ spec:
       labels:
         {{- include "charts.selectorLabels" . | nindent 8 }}
     spec:
+      selector:
+        matchLabels:
+          app: {{ .Chart.Name }}
+        template:
+          metadata:
+            labels:
+              app: {{ .Chart.Name }}
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
