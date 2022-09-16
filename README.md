@@ -1,6 +1,8 @@
 # Super Chainsaw
 
-This repository represents an extremely basic containerized web application backend.
+__Super Chainsaw goes VROOM__
+
+This repository represents an extremely basic containerized web application backend. It goes VROOM.
 
 The application runs on port 8080.
 
