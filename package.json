@@ -1,6 +1,7 @@
 {
   "name": "fresh-express",
-  "version": "0.0.0",
+  "author": "Jedai Saboteur <jsaboteur@sans.org>",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "start": "node app.js"
