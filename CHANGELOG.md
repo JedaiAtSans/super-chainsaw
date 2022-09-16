@@ -5,3 +5,4 @@ Added README.md
 Removed charts/
 Removed routes/
 Updated package.json
+Updated response in app.js
