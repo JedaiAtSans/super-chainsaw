@@ -4,3 +4,4 @@ Added CHANGELONG.md
 Added README.md
 Removed charts/
 Removed routes/
+Updated package.json
