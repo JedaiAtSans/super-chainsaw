@@ -22,21 +22,26 @@ The purpose of this repository is to represent a simple but 'real' application f
 
 ## Building the Image
 
+To build the Docker image run
+
 ```
 docker build . -t <your username>/super-chainsaw:<tag>
 ```
 
 ## Running the Docker Image
 
-Once you have build a docker image you can run it with
+Once you have built a docker image you can run it with
 
 ```
 docker run -p 49160:8080 <your username>/super-chainsaw:<tag>
 ```
 
+The application is now accessible at http://0.0.0.0:49160
+
 ## Shutting down the Docker Image
 
 Get the Container ID
+
 ```
 docker ps
 ```
